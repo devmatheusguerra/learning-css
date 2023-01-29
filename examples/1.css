@@ -1,0 +1,103 @@
+@keyframes move{
+    0%{
+        transform: translateY(-1%);
+    }
+
+    25%{
+        transform: translateY(0%);
+    }
+
+    50%{
+        transform: translateY(1%);
+    }
+    
+    75%{
+        transform: translateY(0%);
+    }
+
+    100%{
+        transform: translateY(-1%);
+    }
+
+}
+
+
+
+
+.shirt {
+animation: move 1s linear infinite !important;
+fill: #05F005;
+
+}
+
+
+
+.body {
+
+fill: #FFEEBA;
+animation: move 1s linear infinite !important;
+
+}
+
+
+
+.pants {
+
+fill: #5b5b98;
+animation: move 1s linear infinite !important;
+
+}
+
+
+
+.boots {
+
+fill: #592bff;
+animation: move 1s linear infinite !important;
+
+}
+
+
+
+.eyes {
+
+fill: #83C8BB;
+animation: move 1s linear infinite !important;
+
+}
+
+
+
+.hair {
+
+fill: #F2E677;
+animation: move 1s linear infinite !important;
+
+}
+
+
+
+.mouth {
+
+fill: #000000;
+animation: move 1s linear infinite !important;
+
+}
+
+.pupils{
+    animation: move 1s linear infinite !important;
+}
+
+
+
+.nose {
+
+fill: #000000;
+animation: move 1s linear infinite !important;
+
+}
+
+
+.sclera{
+    animation: move 1s linear infinite .1s !important;
+}
